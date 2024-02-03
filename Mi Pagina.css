@@ -1,0 +1,121 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 76pc;
+    bottom:0;
+    background-color:turquoise;
+    padding: 1%;
+
+
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+
+}
+
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h1{font-size: 3em;}
+h2{ font-size: 2.8em;}
+h3{font-size: 2.4em;}
+h4{font-size: 2.1em;}
+p{font-size: 1.5em;}
+ul{list-style: none;}
+
+body{
+    margin: 0%;
+    background-color: khaki;
+}
+
+.container{
+    margin: 0%;
+    padding: 0%;
+    max-width: 1400px;
+    border: solid 4px color rgb(10, 236, 10);
+
+}
+table{
+
+    color: black;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: red;
+}
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+td{ 
+    padding: 10px;
+    border-bottom: solid 1px black;
+    text-transform: uppercase;
+
+}
+tbody th:hover {
+    background: rebeccapurple;
+    
+}
+header{
+    background-color: aqua; width:10; height: 10;
+}
+
+header.logo{
+    padding: 25px 30px;
+    margin: 0%;
+    font-weight: bold;
+    color: beige;
+    font-size: 1.6em;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+header a:hover{
+    color: rgb(4, 5, 4);
+}
+#hero{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    text-align:center;
+    flex-direction: column;
+    height: 1080px;
+    color: black;
+
+}
+
+
+#hero h1{ 
+    color: black;
+}
